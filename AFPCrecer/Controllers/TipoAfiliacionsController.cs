@@ -95,7 +95,6 @@ namespace AFPCrecer.Controllers
 
             return tipoAfiliacion;
         }
-
         private bool TipoAfiliacionExists(int id)
         {
             return _context.TipoAfiliacion.Any(e => e.ID == id);
